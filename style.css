@@ -50,7 +50,15 @@ body {
     padding: 12px;
 }
 
+.nav-main ul a {
+    padding: 6px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #808080; 
+}
+
 .nav-main ul.nav-menu {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 40px;
 }
