@@ -168,3 +168,9 @@ a {
     padding: 20px 0;
     background: #25313a
 }
+
+@media (max-width: 700px){
+    .cards {
+        grid-template-columns: repeat(2,1fr)
+    }
+}
