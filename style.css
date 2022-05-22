@@ -66,5 +66,14 @@ body {
 /*SHOWCASE*/
 .showcase {
     width: 100%;
-    height: 2000px;
-    }
+    height: 440px;
+    background-image: url(./imatges/fotomapa.png);
+    background-position: bottom;
+    padding-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-end;
+}
+   
+    
