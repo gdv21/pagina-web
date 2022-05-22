@@ -22,6 +22,23 @@
         <title></title>
     </head>
     <body>
+        <!-- Links (sit on top) -->
+        <div class="w3-top">
+            <nav class="nav-main">
+                <img src="C:\Users\Lenovo\Desktop\UNI\Pràctiques\Producció i disseny cartogràfic\repositori definitiu\pagina-web\imatges\logoweb.png" alt="Atles de Conflictes LOGO" class="nav-brand" height="100px" />
+                <ul class="nav-menu">
+                    <li>
+                        <a href="C:\Users\Lenovo\Desktop\UNI\Pràctiques\Producció i disseny cartogràfic\repositori definitiu\pagina-web\index.html">Inici</a>
+                    </li>
+                    <li>
+                        <a href="C:\Users\Lenovo\Desktop\UNI\Pràctiques\Producció i disseny cartogràfic\repositori definitiu\pagina-web\articles.html">Articles</a>
+                    </li>
+                    <li>
+                        <a href="C:\Users\Lenovo\Desktop\UNI\Pràctiques\Producció i disseny cartogràfic\repositori definitiu\pagina-web\contact.html">Contactes</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
@@ -60,13 +77,13 @@
             }
             function pop_Llegenda_0(feature, layer) {
                 var popupContent = '<table>\
-                            <tr>\
-                                <td colspan="2">' + (feature.properties['PAÍS'] !== null ? autolinker.link(feature.properties['PAÍS'].toLocaleString()) : '') + '</td>\
-                            </tr>\
-                            <tr>\
-                                <td colspan="2">' + (feature.properties['Llegenda'] !== null ? autolinker.link(feature.properties['Llegenda'].toLocaleString()) : '') + '</td>\
-                            </tr>\
-                        </table>';
+                                    <tr>\
+                                        <td colspan="2">' + (feature.properties['PAÍS'] !== null ? autolinker.link(feature.properties['PAÍS'].toLocaleString()) : '') + '</td>\
+                                    </tr>\
+                                    <tr>\
+                                        <td colspan="2">' + (feature.properties['Llegenda'] !== null ? autolinker.link(feature.properties['Llegenda'].toLocaleString()) : '') + '</td>\
+                                    </tr>\
+                                </table>';
                 layer.bindPopup(popupContent, { maxHeight: 400 });
             }
 
