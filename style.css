@@ -166,8 +166,7 @@ a {
 .form {
     width: 100%;
     padding-top: 20px;
-    display: flex;
-    align-items: center;
+    display: table-column;
     justify-content: center;
 }
 
