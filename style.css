@@ -201,7 +201,10 @@ a {
         position: absolute;
         top: 0;
         left: 0;
-        background: #25313a
+        background: #25313a;
+        transform: translateX(-20px);
+        padding: 30px;
+        opacity: .9;
     }
 }
 
