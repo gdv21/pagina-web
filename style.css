@@ -162,42 +162,6 @@ a {
     width: 90%;
     margin: auto;
 }
-.nav-main {
-    font-size: 16px;
-    font-family: 'Orbitron', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 20px 0;
-    background: #25313a
-}
-
-.nav-brand {
-    width: 100px;
-}
-
-/*Nav-left*/
-.nav-main ul {
-    display: flex;
-}
-
-    .nav-main ul li {
-        padding: 12px;
-    }
-
-    .nav-main ul a {
-        padding: 6px;
-    }
-
-    .nav-main ul li a:hover {
-        border-bottom: 2px solid #ffffff;
-    }
-
-    .nav-main ul.nav-menu {
-        flex: 1;
-        margin-left: 40px;
-    }
 
 @media (max-width: 700px){
     .cards {
