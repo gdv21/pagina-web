@@ -186,10 +186,6 @@ a {
     .col-s-1 {
         width: 66.66%;
     }
-
-    .col-s-2 {
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -197,9 +193,5 @@ a {
 
     .col-s-1{
         width: 66.66%;
-    }
-
-    .col-3 {
-        width: 100%;
     }
 }
