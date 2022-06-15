@@ -179,6 +179,15 @@ a {
         grid-template-columns: repeat(2,1fr)
     }
 }
+/*Footer*/
+.registred {
+    font-size: 20px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* For mobile phones: */
 [class*="col-"] {
