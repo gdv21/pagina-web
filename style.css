@@ -159,14 +159,8 @@ a {
 
 /*links*/
 .w3-top {
-    font-size: 16px;
-    font-family: 'Orbitron', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 20px 0;
-    background: #25313a
+    width: 90%;
+    margin: auto;
 }
 
 @media (max-width: 700px){
@@ -186,6 +180,10 @@ a {
     .col-s-1 {
         width: 66.66%;
     }
+
+    .col-s-2 {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -193,5 +191,9 @@ a {
 
     .col-s-1{
         width: 66.66%;
+    }
+
+    .col-s-2 {
+        width: 100%;
     }
 }
