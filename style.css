@@ -194,15 +194,14 @@ a {
     width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
+@media (max-width: 700px) {
 
-    .col-s-1 {
-        width: 66.66%;
-    }
-
-    .col-s-2 {
-        width: 100%;
+    .nav-main ul.nav-menu {
+        display:block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #25313a
     }
 }
 
